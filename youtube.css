@@ -1,0 +1,482 @@
+{
+    box-sizing: border-box;
+    
+  }
+  
+  /* Style the search field */
+  #example input[type=text]
+   {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 3px;
+    font-size: 17px;
+    border: 1px solid gray;
+    width: 550px;
+    background: white;
+
+  }
+  
+  /* Style the submit button */
+  #example button 
+  {
+    position: absolute;
+    top: 10px;
+    left: 500px;
+    width: 60px;
+    padding: 7px;
+    background: #ddd;
+    color: black;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: ; /* Prevent double borders */
+    cursor: pointer;
+  }
+  
+  #example button:hover 
+  {
+    background: #F0F0F0;
+  }
+  
+  /* Clear floats */
+  #example::after 
+  {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  #border
+  {
+    border: solid 0.1px;  
+    position: absolute;
+      top: 55px;
+      left:270px;
+      width: 1090px;
+      color:  #ddd;
+  }
+  #jumb
+  {
+      position: absolute;
+      top: 110px;
+      left: 270px;
+      width: 1090px;
+      background-color: #F9F9F9;
+  }
+  #burger
+  {
+    width: 50px;
+    position: absolute;
+    right: 330px;
+    top: 10px;
+  }
+  #you
+  {
+    position: absolute;
+    top: 10px;
+    right: 210px;
+  }
+  #bouton1
+  {
+    position: absolute;
+    top: 50px;
+    width: 250px;
+    right: 150px;
+  }
+  #accueil
+  {
+    position: absolute;
+    top: 50px;
+    right: 340px;
+    width: 35px;
+  }
+
+  #bouton2
+  {
+    position: absolute;
+    top: 88px;
+    width: 250px;
+    right: 150px;
+  }
+  #explorer
+  {
+    position: absolute;
+    top: 88px;
+    right: 340px;
+    width: 35px;
+  }
+  #bouton3
+  {
+    position: absolute;
+    top: 125px;
+    width: 250px;
+    right: 150px;
+  }
+  #abonner
+  {
+    position: absolute;
+    top: 125px;
+    right: 340px;
+    width: 35px;
+  }
+  #border2
+  {
+    position: absolute;
+    border: solid 0.1px;  
+      right:150px;
+      width: 250px;
+      color:  #ddd;
+    top: 175px;
+  }
+  #bouton4
+  {
+    position: absolute;
+    top: 190px;
+    width: 250px;
+    right: 150px;
+  }
+  #biblio
+  {
+    position: absolute;
+    top: 190px;
+    right: 340px;
+    width: 35px;
+  }
+  #bouton5
+  {
+    position: absolute;
+    top: 227px;
+    width: 250px;
+    right: 150px;
+  }
+  #histore
+  {
+    position: absolute;
+    top: 227px;
+    right: 340px;
+    width: 35px;
+  }
+  #bouton6
+  {
+    position: absolute;
+    top: 265px;
+    width: 250px;
+    right: 150px;
+  }
+  #vos
+  {
+    position: absolute;
+    top: 265px;
+    right: 340px;
+    width: 35px;
+  }
+  #bouton7
+  {
+    position: absolute;
+    top: 303px;
+    width: 250px;
+    right: 150px;
+    text-align: right;
+  }
+  #regar
+  {
+    position: absolute;
+    top: 303px;
+    right: 340px;
+    width: 35px;
+  }
+  #bouton8
+  {
+    position: absolute;
+    top: 340px;
+    width: 250px;
+    right: 150px;
+    
+  }
+  #jaim
+  {
+    position: absolute;
+    top: 340px;
+    right: 340px;
+    width: 35px;
+  }
+  #border3
+  {
+    position: absolute;
+    border: solid 0.1px;  
+      right:150px;
+      width: 250px;
+      color:  #ddd;
+    top: 390px;
+  }
+  #bone
+  {
+    position: absolute;
+    top: 410px;
+    right: 265px;
+  }
+  #bouton9
+  {
+    position: absolute;
+    top: 440px;
+    width: 250px;
+    right: 150px;
+    
+  }
+  #pati
+  {
+    position: absolute;
+    top: 440px;
+    right: 340px;
+    width: 35px;
+  }
+  #bouton10
+  {
+    position: absolute;
+    top: 477px;
+    width: 250px;
+    right: 150px;
+    
+  }
+  #sene
+  {
+    position: absolute;
+    top: 477px;
+    right: 340px;
+    width: 35px;
+  }
+  #bouton11
+  {
+    position: absolute;
+    top: 515px;
+    width: 250px;
+    right: 150px;
+    
+  }
+  #ntv
+  {
+    position: absolute;
+    top: 515px;
+    right: 340px;
+    width: 35px;
+  }
+  #bouton12
+  {
+    position: absolute;
+    top: 552px;
+    width: 250px;
+    right: 150px;
+    
+  }
+  #bay
+  {
+    position: absolute;
+    top: 552px;
+    right: 340px;
+    width: 35px;
+  }
+  #micro
+  {
+    position: absolute;
+    left: 290px;
+    top: 10px;
+  }
+  #video
+  {
+    position: absolute;
+    left: 450px;
+    top: 10px;
+  }
+  #app
+  {
+    position: absolute;
+    left: 500px;
+    top: 10px;
+  }
+  #cloche
+  {
+    position: absolute;
+    left: 550px;
+    top: 10px;
+  }
+  #bayou
+  {
+    position: absolute;
+    left: 600px;
+    top: 5px;
+  }
+  .button1 {
+    background-color:  gray;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    position: absolute;
+    top: 45px;
+    right: 270px;
+  }
+  .button1 :hover
+  {
+    background-color: #f1f1f1; 
+  }
+  .button2 {
+    background-color:  #ddd;
+    border: none;
+    color: black;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    position: absolute;
+    top: 45px;
+    left: 460px;
+  }
+  .button2 :hover
+  {
+    background-color: #f1f1f1; 
+  }
+  .button3 {
+    background-color:  #ddd;
+    border: none;
+    color: black;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    position: absolute;
+    top: 45px;
+    left: 615px;
+  }
+  .button3 :hover
+  {
+    background-color: #f1f1f1; 
+  }
+  .button4 {
+    background-color:  #ddd;
+    border: none;
+    color: black;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    position: absolute;
+    top: 45px;
+    left: 715px;
+  }
+  .button4 :hover
+  {
+    background-color: #f1f1f1; 
+  }
+  .button5
+  {
+    background-color:  #ddd;
+    border: none;
+    color: black;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    position: absolute;
+    top: 45px;
+    left: 830px;
+  }
+  .button5 :hover
+  {
+    background-color: #f1f1f1; 
+  }
+  .button6
+  {
+    background-color:  #ddd;
+    border: none;
+    color: black;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    position: absolute;
+    top: 45px;
+    left: 365px;
+  }
+  .button6 :hover
+  {
+    background-color: #f1f1f1; 
+  }
+  .button7
+  {
+    background-color:  #ddd;
+    border: none;
+    color: black;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    position: absolute;
+    top: 45px;
+    left: 270px;
+  }
+  .button7 :hover
+  {
+    background-color: #f1f1f1; 
+  }
+  .button8
+  {
+    background-color:  #ddd;
+    border: none;
+    color: black;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    position: absolute;
+    top: 45px;
+    right: 145px;
+  }
+  .button8 :hover
+  {
+    background-color: #f1f1f1; 
+  }
+  .button9
+  {
+    background-color:  #ddd;
+    border: none;
+    color: black;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    position: absolute;
+    top: 45px;
+    left:150px;
+  }
+  .button9 :hover
+  {
+    background-color: #f1f1f1; 
+  }
